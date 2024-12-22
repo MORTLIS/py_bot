@@ -52,7 +52,7 @@ button:hover{
     background: var(--tg-theme-secondary-bg-color);
 }
 
-#from{
+#form{
     display: none;
     text-align: center;
 }
