@@ -20,7 +20,7 @@
 
 <body>
     <div id="main">
-        <h1>Магазин</h1>
+        <h1>Онлайн магазин</h1>
         <img src="images.jpeg" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur</p>
         <button id="buy">Купить</button>
@@ -40,7 +40,7 @@
         buy.addEventListener("click", () => {
            document.getElementById("main").style.display = "none";
            document.getElementById("form").style.display = "block";
-           document.getElementById("user_name").value = tg.initDataUnsafa.user.fitst_name + " " + tg.initDataUnsafa.user.last_name;
+           document.getElementById("user_name").value = tg.initDataUnsafe.user.fitst_name + " " + tg.initDataUnsafe.user.last_name;
         });
 
         order.addEventListener("click", () =>{
